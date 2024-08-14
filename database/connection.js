@@ -12,7 +12,7 @@ class DbConnection {
         password: process.env.MYSQL_DB_PASSWORD,
         database: process.env.MYSQL_DB_NAME,
       });
-
+//c
       connection.connect((err) => {
         if (err) throw err;
         console.log("Connected to MySQL database!");
